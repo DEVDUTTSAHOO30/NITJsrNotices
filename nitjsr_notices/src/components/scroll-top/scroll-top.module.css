@@ -1,0 +1,17 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  background-color: rgb(27, 89, 160);
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.scrollTopIcon {
+  margin:auto;
+  height: 35px;
+  width: 30px;
+  color: white;
+}

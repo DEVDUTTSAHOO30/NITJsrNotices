@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Institute",
+    "id": 1,
+    "subOptions": [
+      {
+        "name": "About NITJSR",
+        "link": "/institute/about-nitjsr"
+      },
+      {
+        "name": "Vision and Mission",
+        "link": "/institute/vision-and-mission"
+      },
+      {
+        "name": "Acts and Statues",
+        "link": "/institute/acts-and-statues"
+      },
+      {
+        "name": "Board of Governers",
+        "link": "/institute/board-of-governers"
+      },
+      {
+        "name": "Finance Committee",
+        "link": "/institute/finance-committee"
+      },
+      {
+        "name": "Senate",
+        "link": "/institute/senate"
+      },
+      {
+        "name": "BWC",
+        "link": "/institute/bwc"
+      },
+      {
+        "name": "Organizational Chart",
+        "link": "/institute/Organizational_Chart"
+      },
+      {
+        "name": "Ranking and Recognition",
+        "link": "/institute/ranking-and-recognition"
+      },
+      {
+        "name": "Former Directors",
+        "link": "/institute/former-directors"
+      },
+      {
+        "name": "How to Reach",
+        "link": "/institute/how-to-reach"
+      }
+    ]
+  },
+  {
+    "name": "Administration ",
+    "id": 2,
+    "subOptions": [
+      {
+        "name": "Visitor",
+        "link": "/Administration/Visitor"
+      },
+      {
+        "name": "Chairman,BOG",
+        "link": "/Administration/ChairmanBOG"
+      },
+      {
+        "name": "Director",
+        "link": "/Administration/Director"
+      },
+      {
+        "name": "Deputy Director",
+        "link": "/Administration/DeputyDirector"
+      },
+      {
+        "name": "Registrar",
+        "link": "/Administration/Registrar"
+      },
+      {
+        "name": "Deans",
+        "link": "/Administration/Deans"
+      },
+      {
+        "name": "Associate Deans",
+        "link": "/Administration/AssociateDeans"
+      },
+      {
+        "name": "Head of Departments",
+        "link": "/Administration/HODs"
+      },
+      {
+        "name": "Cheif Vigilance Officer",
+        "link": "/Administration/ChiefVigilanceOfficer"
+      }
+    ]
+  },
+  {
+    "name": "Academics",
+    "id": 3,
+    "subOptions": [
+      {
+        "name": "Academics",
+        "link": "#"
+      },
+      {
+        "name": "Admissions",
+        "link": "/academic/Admissions"
+      },
+      {
+        "name": "People",
+        "link": "/academic/People"
+      },
+      {
+        "name": "Departments",
+        "link": "/academic/Departments"
+      },
+      {
+        "name": "Curriculum",
+        "link": "#"
+      },
+      {
+        "name": "Student Statistics",
+        "link": "#"
+      },
+      {
+        "name": "Fee Structure",
+        "link": "/academic/Fee_Structure"
+      },
+      {
+        "name": "Semester Schedule",
+        "link": "#"
+      },
+      {
+        "name": "Ordinance",
+        "link": "/academic/Ordinance"
+      },
+      {
+        "name": "Academic Documents",
+        "link": "/academic/Academic_Documents"
+      }
+    ]
+  },
+  {
+    "name": "Students",
+    "id": 4,
+    "subOptions": [
+      {
+        "name": "Placements",
+        "link": "/Students/Placements"
+      },
+      {
+        "name": "Student Achievements",
+        "link": "/Students/Student-Achievements"
+      },
+      {
+        "name": "Student Activities",
+        "link": "#"
+      },
+      {
+        "name": "Financial Assistance",
+        "link": "/Students/FinancialAssistance"
+      },
+      {
+        "name": "Hostel Management",
+        "link": "/Students/Hostel-Management"
+      },
+      {
+        "name": "Wardens",
+        "link": "#"
+      },
+      {
+        "name": "Anti Ragging",
+        "link": "#"
+      },
+      {
+        "name": "Student Life",
+        "link": "#"
+      },
+      {
+        "name": "Student Counselling",
+        "link": "#"
+      },
+      {
+        "name": "Health and Welfare",
+        "link": "/Students/Health-and-Welfare"
+      },
+      {
+        "name": "Life @ NIT JSR",
+        "link": "/Students/Life-@NIT-JSR"
+      },
+      {
+        "name": "Student Council",
+        "link": "/Students/StudentCouncil"
+      }
+    ]
+  },
+  {
+    "name": "People",
+    "id": 5,
+    "subOptions": [
+      {
+        "name": "Faculty",
+        "link": "#"
+      },
+      {
+        "name": "Office Administration",
+        "link": "#"
+      },
+      {
+        "name": "Other Administration",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Tender",
+    "id": 6,
+    "subOptions": [
+      {
+        "name": "Active Tenders",
+        "link": "#"
+      },
+      {
+        "name": "Archived Tenders",
+        "link": "#"
+      },
+      {
+        "name": "All Tenders",
+        "link": "#"
+      },
+      {
+        "name": "Contact Us",
+        "link": "#"
+      },
+      {
+        "name": "Useful Links",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Notices",
+    "id": 7,
+    "subOptions": [
+      {
+        "name": "Announcements",
+        "link": "#"
+      },
+      {
+        "name": "Office Orders",
+        "link": "#"
+      },
+      {
+        "name": "Students",
+        "link": "#"
+      },
+      {
+        "name": "Recruitments",
+        "link": "#"
+      },
+      {
+        "name": "Archive Notices",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Cells",
+    "id": 8,
+    "subOptions": [
+      {
+        "name": "SC-ST Cell",
+        "link": "#"
+      },
+      {
+        "name": "IPR Cell",
+        "link": "#"
+      },
+      {
+        "name": "Grievance Cell",
+        "link": "#"
+      },
+      {
+        "name": "Reservation Cell",
+        "link": "#"
+      },
+      {
+        "name": "Publication Cell",
+        "link": "#"
+      },
+      {
+        "name": "Public Relation Cell",
+        "link": "#"
+      },
+      {
+        "name": "Hindi Cell",
+        "link": "#"
+      },
+      {
+        "name": "Women Cell",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Central Facilities",
+    "id": 9,
+    "subOptions": [
+      {
+        "name": "Central Library",
+        "link": "/facilities/Central_Library"
+      },
+      {
+        "name": "Medical Facilities",
+        "link": "/facilities/Medical_Facilities"
+      },
+      {
+        "name": "Computer Center",
+        "link": "/facilities/Computer_Center"
+      },
+      {
+        "name": "Safety and Security",
+        "link": "/facilities/Safety_and_Security"
+      },
+      {
+        "name": "Guest House",
+        "link": "/facilities/Guest_House"
+      },
+      {
+        "name": "Transport",
+        "link": "/facilities/Transport"
+      }
+    ]
+  }
+]

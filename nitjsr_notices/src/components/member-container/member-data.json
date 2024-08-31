@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "position": "Chairman",
+        "names": "Prof. Goutam Sutradhar (Acting)",
+        "other_info": [
+            {
+                "info_id":1,
+                "info":"Professor"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "position": "Director (Ex-Officio) Member",
+        "names": "Prof. Goutam Sutradhar (Acting)",
+        "other_info": [
+            {
+                "info_id":1,
+                "info":"Director, National Institute of Technology Jamshedpur"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "position": "Member (Ex-Officio), MoE, GoI",
+        "names": [
+            {
+                "name_id":1,
+                "name":"Prof. Goutam Sutradhar (Acting)"
+            }
+        ],
+        "other_info": [
+            {
+                "info_id":1,
+                "info":"Director, National Institute of Technology Jamshedpur"
+            }
+        ]
+    }
+]

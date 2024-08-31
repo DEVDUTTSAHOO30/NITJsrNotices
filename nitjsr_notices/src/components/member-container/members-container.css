@@ -1,0 +1,62 @@
+*{
+    white-space: pre-line;
+}
+.member_container hr{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+/* unique property */
+.member_designation {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* member designation underline design -- starts from here*/
+.bar_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.bar_container #left_bar {
+    height: 1.8px;
+    width: 15px;
+    background-color: rgb(39, 65, 135);
+}
+
+.bar_container #middle_bar {
+    height: 5px;
+    width: 20px;
+    background-color: rgb(39, 65, 135);
+    border-radius: 10px;
+}
+
+.bar_container #right_bar {
+
+    height: 1.8px;
+    width: 40px;
+    background-color: rgb(39, 65, 135);
+}
+/* member designation underline design -- ends here*/
+
+.member_name, .member_description{
+    padding-left: 10px;
+}
+
+.members{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* conditional padding for 2nd element of member box */
+.member_box2{
+    padding-left: 60px;
+}
+
+.member_description{
+    line-height: 30px;
+}

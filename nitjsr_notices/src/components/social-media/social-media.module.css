@@ -1,0 +1,13 @@
+.socialMedia {
+  position: fixed;
+  margin-top: 14vh;
+  left: 0px;
+  z-index: 100;
+}
+.socialItem {
+  margin: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

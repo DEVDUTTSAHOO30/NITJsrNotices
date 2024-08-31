@@ -1,0 +1,14 @@
+@keyframes all{
+    0%{
+        opacity: 1;
+        visibility: inherit;
+    }
+    50%{
+        opacity: 0.75;
+        visibility: 75%;
+    }
+    100%{
+        opacity: 0;
+        visibility: collapse;
+    }
+}
