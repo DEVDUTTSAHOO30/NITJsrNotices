@@ -26,17 +26,17 @@ export default async function Home() {
 
       <SocialMedia />
       <NoticeSection noticeData={noticeData.data} />
-      <HomePageLinks />
-      <SectionLinks />
-      <MiddleCarousel
+      {/* <HomePageLinks /> */}
+      {/* <SectionLinks /> */}
+      {/* <MiddleCarousel
         research={noticeData.data}
         acheiver={upcomingEvents.data}
         testimonial={upcomingEvents.data}
-      />
-      <BottomCarousel
+      /> */}
+      {/* <BottomCarousel
         researchData={researchData.result}
         upcomingEvents={upcomingEvents.data}
-      />
+      /> */}
 
     </>
   );
