@@ -12,18 +12,17 @@ export default async function Home() {
   const noticeData = await fetchData<{ data: Array<Notice> }>(
     "/api/notices/landing?limit=10"
   );
-  const researchData = await fetchData<{ result: Array<Object> }>(
-    "/api/research/recent"
-  );
-  //console.log(researchData.result)
-  const upcomingEvents = await fetchData<{ data: Array<Object> }>(
-    "/api/events/upcoming"
-  );
-  //console.log(upcomingEvents.data)
+  // const researchData = await fetchData<{ result: Array<Object> }>(
+  //   "/api/research/recent"
+  // );
+  // //console.log(researchData.result)
+  // const upcomingEvents = await fetchData<{ data: Array<Object> }>(
+  //   "/api/events/upcoming"
+  // );
+  // //console.log(upcomingEvents.data)
 
   return (
     <>
-
       <SocialMedia />
       <NoticeSection noticeData={noticeData.data} />
       {/* <HomePageLinks /> */}
