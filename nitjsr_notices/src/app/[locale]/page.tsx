@@ -1,3 +1,11 @@
+
+export const mockCategories = [
+  { id: 1, name: "Events" },
+  { id: 2, name: "Announcements" },
+  { id: 3, name: "Exams" },
+];
+
+import { mockNotices } from "./data";
 import SocialMedia from "@/components/social-media/social-media";
 import HomePageLinks from "@/sections/home/home-page-links";
 import NoticeSection from "@/sections/home/notice-section";
@@ -9,6 +17,19 @@ import SectionLinks from "@/sections/home/section-links";
 import fetchData from "@/utils/fetch-data";
 
 export default async function Home() {
+
+  const categories = mockCategories;
+  const notices = mockNotices;
+
+  const noticesByCategory = notices.reduce((acc, notice) => {
+    const category = notice.category;
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(notice);
+    return acc;
+  }, {} as Record<string, typeof notices>);
+
   const noticeData = await fetchData<{ data: Array<Notice> }>(
     "/api/notices/landing?limit=10"
   );
@@ -24,7 +45,10 @@ export default async function Home() {
   return (
     <>
       <SocialMedia />
-      <NoticeSection noticeData={noticeData.data} />
+       <NoticeSection
+          categories={categories}
+          noticesByCategory={noticesByCategory}
+        />
       {/* <HomePageLinks /> */}
       {/* <SectionLinks /> */}
       {/* <MiddleCarousel

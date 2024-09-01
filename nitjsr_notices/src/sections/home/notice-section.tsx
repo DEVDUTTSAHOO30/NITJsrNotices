@@ -1,33 +1,79 @@
+// components/home/notice-section.tsx
 "use client";
 
+import { useRouter } from 'next/navigation';
 import NoticeCarousel from "@/components/carousel/notice-carousel";
 import NoticeImageCarousel from "@/components/carousel/notice-image-carousel";
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 
-interface Props {
-  noticeData: Array<Notice>;
+interface Notice {
+  id: number;
+  title: string;
+  content: string;
+  category: string;
 }
 
-export default function NoticeSection({ noticeData }: Props) {
+interface Category {
+  id: number;
+  name: string;
+}
+
+interface NoticeSectionProps {
+  categories: Category[];
+  noticesByCategory: Record<string, Notice[]>;
+}
+
+export default function NoticeSection({ categories, noticesByCategory }: NoticeSectionProps) {
+  const router = useRouter();
+  const handleCategoryClick = (category: string) => {
+    router.push(`/notices/${category}`);
+  };
+
   return (
     <Box
       sx={{
         display: "flex",
-        justifyContent: "center",
+        flexDirection: "column",
         alignItems: "center",
-        flexWrap: "wrap",
         marginTop: "3rem",
       }}
     >
-      <Grid container>
-        <Grid item xs={12} md={6} padding={1.5}>
+      {/* <Typography variant="h4" sx={{ marginBottom: "1rem" }}>Notices</Typography> */}
+
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={6}>
           <NoticeImageCarousel />
         </Grid>
 
-        <Grid item xs={12} md={6} padding={1.5}>
-          <NoticeCarousel noticeData={noticeData} />
+        <Grid item xs={12} md={6}>
+          <NoticeCarousel categories={categories} />
         </Grid>
       </Grid>
     </Box>
   );
 }
+
+
+// export default function NoticeSection({ noticeData }: Props) {
+//   return (
+//     <Box
+//       sx={{
+//         display: "flex",
+//         justifyContent: "center",
+//         alignItems: "center",
+//         flexWrap: "wrap",
+//         marginTop: "3rem",
+//       }}
+//     >
+//       <Grid container>
+//         <Grid item xs={12} md={6} padding={1.5}>
+//           <NoticeImageCarousel />
+//         </Grid>
+
+//         <Grid item xs={12} md={6} padding={1.5}>
+//           <NoticeCarousel noticeData={noticeData} />
+//         </Grid>
+//       </Grid>
+//     </Box>
+//   );
+// }
