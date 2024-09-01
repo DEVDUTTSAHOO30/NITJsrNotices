@@ -35,7 +35,7 @@ export default function RootLayout({
         <ThemeProvider>
           <DrawerContextProvider>
             <Nav />
-            <Sidenav currentLocale={locale} />
+            {/* <Sidenav currentLocale={locale} /> */}
             <ScrollTop />
             <div style={{ minHeight: "80vh" }}>{children}</div>
             {/* <HomePageLinks />

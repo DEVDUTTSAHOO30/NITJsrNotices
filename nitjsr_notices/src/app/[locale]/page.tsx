@@ -12,7 +12,7 @@ export default async function Home() {
   const noticeData = await fetchData<{ data: Array<Notice> }>(
     "/api/notices/landing?limit=10"
   );
-  // const researchData = await fetchData<{ result: Array<Object> }>(
+  // const researchData = await fetchData<{ result: Array<Object> }>(                                                                                                               
   //   "/api/research/recent"
   // );
   // //console.log(researchData.result)
