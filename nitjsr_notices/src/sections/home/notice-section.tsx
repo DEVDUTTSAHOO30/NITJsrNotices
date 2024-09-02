@@ -9,7 +9,12 @@ import { Box, Grid, Typography } from "@mui/material";
 interface Notice {
   id: number;
   title: string;
-  content: string;
+  path: string;
+  notification_for: string[];
+  idate: string;
+  highlight: number;
+  count: number;
+  status: number;
   category: string;
 }
 
